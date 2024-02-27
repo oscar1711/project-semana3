@@ -27,12 +27,9 @@ export default function Developers() {
               <p className='text-xl font-semibold'>{d.name}</p>
               <p className='text-center'>{d.review}</p>
               <div className="flex text-white text-lg px-4 py-2 flex items-center">
-              <button  onClick={() => window.open( d.youtube , '_blank')}>
-                <img src="/Images/youtube.svg" alt="YouTube" className="h-5 w-5 mr-2" /></button>
-              <button  onClick={() => window.open( d.twitter , '_blank')}>
-                <img src="/Images/twitter-x.svg" alt="twitter" className="h-5 w-5 mr-2" /></button>
-              <button  onClick={() => window.open( d.linkedin , '_blank')}>
-                <img src="/Images/linkedin.svg" alt="linkedIn" className="h-5 w-5 mr-2" /></button>
+              <button  onClick={() => window.open( `https://www.google.com/maps/place/C.C+Gran+Estacion+Costado+Esfera+Local+3-09/@4.6465556,-74.1036186,18z/data=!4m6!3m5!1s0x8e3f9b2186539871:0x558c0600f7ece033!8m2!3d4.6467668!4d-74.1033343!16s%2Fg%2F11ff207jht?hl=es&entry=ttu` , '_blank')} >
+            <img src="../src/assets/Fotos/map.jpeg" alt="YouTube" className="h-10 w-10 mr-2" />
+            </button>
               </div> 
             </div>
             </div>
@@ -47,27 +44,23 @@ export default function Developers() {
   } 
   const data = [
     {
-      name: `Brais Moure`,
-      img: `../src/assets/Fotos/perfil-brais.png`,
-      review: `Developer`,
-      linkedin:`https://www.linkedin.com/in/braismoure/`,
-      youtube:`https://www.youtube.com/@mouredev`,
-      twitter:`https://twitter.com/MoureDev`
+      name: `KFC`,
+      img: `../src/assets/Fotos/KFC.jpeg`,
+      review: `Reconocida cadena global de restaurantes de comida rápida especializada en pollo frito.`
     },
     {
-      name: `Facundo`,
-      img: `../src/assets/Fotos/perfil-facundo.png`,
-      review: `Developer`,
-      linkedin:`https://www.linkedin.com/in/braismoure/`,
-      youtube:`https://www.youtube.com/@mouredev`,
-      twitter:`https://twitter.com/MoureDev`
+      name: `MCDONALDS`,
+      img: `../src/assets/Fotos/MCDONALDS.jpeg`,
+      review: `McDonald's es una cadena internacional de restaurantes de comida rápida conocida por sus hamburguesas, papas fritas y otros productos alimenticios.`
     },
     {
-      name: `Fernando Herrera`,
-      img: `../src/assets/Fotos/perfil-fernando.jpg`,
-      review: `Software Developer`,
-      linkedin:`https://www.linkedin.com/in/braismoure/`,
-      youtube:`https://www.youtube.com/`,
-      twitter:`https://twitter.com/MoureDev`
+      name: `BURGER KING`,
+      img: `../src/assets/Fotos/BURGERKING.jpeg`,
+      review: `Burger King es una cadena global de restaurantes de comida rápida reconocida por su amplia selección de hamburguesas, incluyendo la famosa Whopper`
+    },
+    {
+      name: `CREPES AND WAFFLES`,
+      img: `../src/assets/Fotos/CREPES.jpeg`,
+      review: `Crepes & Waffles es una cadena de restaurantes originaria de Colombia, conocida por sus crepes dulces y salados`
     },
   ];
